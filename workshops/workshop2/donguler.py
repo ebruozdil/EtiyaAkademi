@@ -6,6 +6,7 @@ ortalama = (vize * 0.4) + (final * 0.6)
 # eğer ortalama 50'den küçükse kullanıcı kaldı
 # eğer vize finalin 2 katı ise kullanıcı kaldı
 # bunun dışındaki tüm durumlarda kullanıcı geçti yazdırmak istiyoruz.
+
 if final<40 :
     print("kaldınız.")
 elif ortalama < 50 :
