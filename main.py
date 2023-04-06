@@ -133,7 +133,7 @@ if studentCount > 20:
     print("Öğrenciler ders için hazır")
 
 print("İf bloğundan bağımsız kısım")
-# karar yapıları -end
+
 
 #---------------------personal workshop
 vize = int(input("Vize notunuzu giriniz: "))
@@ -152,4 +152,24 @@ elif vize == final*2 :
     print("Kaldınız.")
 else:
     print("Geçtiniz!")
+
+#------
+
+#condition-logic
+# or and
+# (true or false) => true => sol ve sağındaki koşullardan en az birisinin true olmasını istiyor 
+# (true and false) => false => sol ve sağındaki koşulların ikisinin de kesinlikle true olmasını ister
+if final < 40 or ortalama < 50 or vize == final *2:
+    print("Kaldı")
+# elif ortalama < 50:
+#     print("Kaldı")
+# elif vize == final * 2:
+#     print("Kaldı")
+else:
+    print("Geçti")
 #-----------------
+
+
+
+
+# karar yapıları -end
